@@ -1,3 +1,4 @@
+/* Home Page */
 body{
     background: #515357;
 }
@@ -22,11 +23,25 @@ a{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
 }
+/* Biograhy Page */
 .first-section{
     width: 1100px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-around;
 }
 .div-box{
     margin-top: 30px;
+}
+.biography-h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.biography-p{
+    width: 450px;
+    color: white;
+    font-size: 22px;
+    margin-top: 20px;
 }
