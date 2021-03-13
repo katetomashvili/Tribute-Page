@@ -1,10 +1,9 @@
-/* Home Page */
 body{
     background-image: url(../img/background.jpg); 
     background-repeat: no-repeat; 
     background-position: right;
 }
-.header-wrapper{
+.header-wrapper{  
     display: flex;
     justify-content: center;
 }
@@ -49,7 +48,7 @@ a{
 }
 /* X Factor */
 .nav-li-x{
-    color: black;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     margin-right: 60px;
@@ -61,7 +60,7 @@ a{
     font-size: 40px;
 }
 .x-a{
-    color: black;
+    color: whitesmoke;
 }
 .first-x{
     margin: 0 auto;
@@ -71,12 +70,14 @@ a{
     margin-bottom: 50px;
 }
 .x-h1{
+    color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 8px;
 }
 .x-p{
+    color: white;
     font-size: 20px;
     width: 500px;
 }
@@ -86,4 +87,30 @@ a{
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
+}
+/* Awards */
+.header-wrapper-aw{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.awards-section{
+    width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.award-h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.award-p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    color: white;
+    width: 500px;
 }
