@@ -45,3 +45,43 @@ a{
     font-size: 22px;
     margin-top: 20px;
 }
+/* X Factor */
+.nav-li-x{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.nav-li-x:nth-child(1){
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+.x-a{
+    color: black;
+}
+.first-x{
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.x-h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.x-p{
+    font-size: 20px;
+    width: 500px;
+}
+.second-x{
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
