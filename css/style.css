@@ -1,6 +1,9 @@
 /* Home Page */
 body{
     background: #515357;
+    background-image: url(img/background.jpg); 
+    background-repeat: no-repeat; 
+    background-position: right;
 }
 .header-wrapper{
     display: flex;
